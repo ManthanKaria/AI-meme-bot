@@ -4,7 +4,7 @@
 # from PIL import Image
 # from io import BytesIO
 
-# PEXELS_API_KEY = "9w2i2kPw4kJd6a93b04JAoMcC8ySgpxbSm9GUOmohn8VhspIWefWeT8t"
+# PEXELS_API_KEY = "YOUR_PIXELS_API_KEY"
 # PEXELS_SEARCH_URL = "https://api.pexels.com/v1/search"
 
 # def sanitize_filename(name):
@@ -68,7 +68,7 @@ import re
 import requests
 
 # 📸 Pexels API details
-PEXELS_API_KEY = "9w2i2kPw4kJd6a93b04JAoMcC8ySgpxbSm9GUOmohn8VhspIWefWeT8t"
+PEXELS_API_KEY = "YOUR_PIXELS_API_KEY"
 PEXELS_SEARCH_URL = "https://api.pexels.com/v1/search"
 PEXELS_DOWNLOAD_DIR = "data/memes/pexels"
 os.makedirs(PEXELS_DOWNLOAD_DIR, exist_ok=True)
