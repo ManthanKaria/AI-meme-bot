@@ -446,7 +446,7 @@ import cv2
 from PIL import Image, ImageDraw, ImageFont
 
 # ---------- CONFIGURATION ----------
-GEMINI_API_URL = f"https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-pro-latest:generateContent?key=AIzaSyCABC7nUV8y-pgJGbM8KnviGrAVNX8zK5U"
+GEMINI_API_URL = f"https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-pro-latest:generateContent?key=YOUR_GEMENI_API_KEY"
 GEMINI_HEADERS = {
     "Content-Type": "application/json",
 }
